@@ -127,31 +127,8 @@ nav .container .menu ul li a .fa-angle-down{
     padding: 3px;
     color: #555555;
 }
-nav .container .menu ul li .sub-memu{
-    position: absolute;
-    width: 200px;
-    top: 100%;
-    left: 0;
-    text-align: left;
-    background-color: #FFF;
-    z-index: 1;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.8s;
-}
-nav .container .menu ul li .sub-memu li{
-    display: block;
-}
-nav .container .menu ul li .sub-memu li a{
-    padding: 5px;
-}
-nav .container .menu ul li:hover .sub-memu{
-    opacity: 1;
-    visibility: unset;
-}
-nav .container .menu ul li .sub-memu li a:hover{
-    color: #1478B9;
-}
+
+
 .responsive-menu {
     display: none;
     flex: 3;
