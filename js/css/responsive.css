@@ -1,0 +1,35 @@
+@media only screen and (max-width:575px){
+    .content-sale li a img{
+        height: 150px;
+    }
+    #sale .container .content-sale li{
+        width: 50%;
+    }
+    
+}
+@media only screen and (max-width:767px){
+    .header-area{
+        display: none;
+    }
+    #navMenu {
+        display: none;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+    nav .container .menu ul li{
+        display:block;
+    }
+    nav .container{
+        position: relative;
+    }
+    nav .container .menu{
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        background-color: #fff;
+    }
+}
