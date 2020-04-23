@@ -16,3 +16,6 @@ $(document).ready(function(){
 	});
 	
 });
+$('.dropdown').on('mouseenter mouseleave click tap', function() { 
+    $(this).toggleClass("show"); 
+}); 
