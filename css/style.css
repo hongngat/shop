@@ -231,7 +231,9 @@ nav .container .menu ul li .sub-memu li a:hover{
     margin: 0 auto;
     display: flex;
 }
-
+#sale .container .content-sale li{
+    padding: 0;
+}
 #sale .container .content-sale li div{
     padding: 10px 10px;
     position: relative;
