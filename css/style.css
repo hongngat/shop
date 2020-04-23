@@ -33,6 +33,7 @@ header .header-area .container .flex-item .logo{
     flex: 3;
     padding: 10px 0px;
     margin: 0;
+    align-items: center;
 }
 header .header-area .container .contact {
     padding: 10px 0px;
@@ -62,7 +63,7 @@ header .header-area .container .contact .flex-contact ul li a i{
     margin-right: 10px;
     font-size: 15px;
 }
-.contact .flex-contact ul li .subscribe{
+.contact .flex-contact  .subscribe{
     display: block;
     text-decoration: none;
     color: #1478B9;
@@ -70,7 +71,7 @@ header .header-area .container .contact .flex-contact ul li a i{
     border: 1px solid #1478B9;
     transition: 0.5s;
 }
-.contact .flex-contact ul li .subscribe:hover{
+.contact .flex-contact  .subscribe:hover{
     background-color: #1478B9;
     color: #FFF;
 
@@ -79,9 +80,10 @@ header .header-area .container .contact .flex-contact ul li a i{
 /*nav*/
 nav{
     padding: 10px 0;
-    border-bottom: 1px solid #DEE1E6;
+    border-bottom: 1px solid #555555;
     line-height: 40px;
     background-color: #fff;
+    position: relative;
 }
 nav .container{
     max-width: 1140px;
@@ -91,6 +93,7 @@ nav .container{
 }
 nav .container .menu{
     flex: 3;
+    
 }
 nav .container .menu ul{
     list-style: none;
@@ -148,6 +151,11 @@ nav .container .menu ul li:hover .sub-memu{
 }
 nav .container .menu ul li .sub-memu li a:hover{
     color: #1478B9;
+}
+.responsive-menu {
+    display: none;
+    flex: 3;
+   
 }
 /*slide*/
 #slide{
