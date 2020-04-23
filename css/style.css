@@ -1,0 +1,380 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   
+    font-weight: normal;
+    font-style: normal;
+}
+img{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+header .header-area{
+    background-color: #FFF;
+    border-bottom: 1px solid #DEE1E6;
+}
+header .header-area .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+header .header-area .container .flex-item{
+    display: flex;
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+header .header-area .container .flex-item .logo{
+    flex: 3;
+    padding: 10px 0px;
+    margin: 0;
+}
+header .header-area .container .contact {
+    padding: 10px 0px;
+    
+}
+.flex-contact{
+    display: flex;
+    align-items: center;
+
+}
+
+header .header-area .container .contact .flex-contact ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px 0px;
+}
+header .header-area .container .contact .flex-contact ul li{
+    display: inline-block;
+}
+header .header-area .container .contact .flex-contact ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 45px;
+}
+header .header-area .container .contact .flex-contact ul li a i{
+    color: #1478B9;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.contact .flex-contact ul li .subscribe{
+    display: block;
+    text-decoration: none;
+    color: #1478B9;
+    padding: 10px 20px;
+    border: 1px solid #1478B9;
+    transition: 0.5s;
+}
+.contact .flex-contact ul li .subscribe:hover{
+    background-color: #1478B9;
+    color: #FFF;
+
+}
+
+/*nav*/
+nav{
+    padding: 10px 0;
+    border-bottom: 1px solid #DEE1E6;
+    line-height: 40px;
+    background-color: #fff;
+}
+nav .container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+}
+nav .container .menu{
+    flex: 3;
+}
+nav .container .menu ul{
+    list-style: none;
+    margin: 0 auto;
+}
+nav .container .menu ul li{
+    display: inline-block;
+    position: relative;
+}
+nav .container .menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #555555;
+    padding: 0px 25px 0px 25px;
+    font-weight: 400;
+    display: inline-block;
+}
+.search a{
+    background-color: #1478B9;
+    padding: 5px;
+    border-radius: 100%;
+    transition: 0.5s;
+    color: #fff;
+}
+.search a:hover{
+    background-color: #FDF00B;
+    color: #555555;
+}
+nav .container .menu ul li a .fa-angle-down{
+    font-size: 13px;
+    padding: 3px;
+    color: #555555;
+}
+nav .container .menu ul li .sub-memu{
+    position: absolute;
+    width: 200px;
+    top: 100%;
+    left: 0;
+    text-align: left;
+    background-color: #FFF;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.8s;
+}
+nav .container .menu ul li .sub-memu li{
+    display: block;
+}
+nav .container .menu ul li .sub-memu li a{
+    padding: 5px;
+}
+nav .container .menu ul li:hover .sub-memu{
+    opacity: 1;
+    visibility: unset;
+}
+nav .container .menu ul li .sub-memu li a:hover{
+    color: #1478B9;
+}
+/*slide*/
+#slide{
+    height: 500px;
+    position: relative;
+}
+#slide::before{
+    content: '';
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+#slide .slide-item{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/02.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+.slide-content{
+    max-width: 767px;
+    text-align: center;
+    position: relative;
+}
+.slide-content p{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 488;
+
+}
+.slide-content h3{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 0;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+.slide-content a{
+    border: 1px solid #1478B9;
+    padding:10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1478B9;
+    transition: 0.5;
+    font-size: 20px;
+    text-align: center;
+}
+.slide-content a:hover{
+    background-color:transparent;
+    color: #1478B9;
+}
+/*sale*/
+#sale{
+    width: 100%;
+    padding: 20px 0px 5px 0px;
+}
+.content-sale li a img{
+    width: 100%;
+    height: 200px;
+}
+#sale .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    position: relative;
+}
+#sale .container .content-sale{
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+}
+
+#sale .container .content-sale li div{
+    padding: 10px 10px;
+    position: relative;
+  
+}
+#sale .container .content-sale li div a img{
+    opacity: 1;
+    backface-visibility: hidden;
+    transition: 0.5s ease;
+    
+}
+#sale .container .content-sale li div a .text-content{
+    opacity: 0;
+    transition: 0.5 ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#sale .container .content-sale li div:hover a .text-content{
+    opacity: 1;
+    
+}
+
+#sale .container .content-sale li div:hover a img{
+    opacity: 0.3;
+}
+#sale .container .content-sale li div a .text-content  .text{
+    font-size: 20px;
+    color: #1478B9;
+    font-weight: 500;
+}
+
+
+/*sale-1*/
+#sale-1{
+    width: 100%;
+    padding: 5px 0px 20px 0px;
+}
+
+#sale-1 .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    position: relative;
+}
+
+.wrap {
+    position: relative;
+    margin:  0;
+  }
+  
+  
+  /* Frame */
+  
+  .frame {
+    height: 200px;
+    line-height: 200px;
+    overflow: hidden;
+  }
+  
+  .frame ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 50px;
+  }
+  
+  .frame ul li {
+    float: left;
+    width: 227px;
+    height: 100%;
+    margin: 0;
+    padding: 0px 0px;
+    text-align: center;
+    cursor: pointer;
+  }
+  #sale-1 .container .wrap .frame .content-sale li div{
+    padding: 10px 10px;
+    position: relative;
+  
+}
+#sale-1 .container .wrap .frame .content-sale li div a img{
+    opacity: 1;
+    backface-visibility: hidden;
+    transition: 0.5s ease;
+    
+}
+
+#sale-1 .container .wrap .frame .content-sale li div a .text-content{
+    opacity: 0;
+    transition: 0.5 ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    -ms-transform: translate(-50%,-80%);
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+
+#sale-1 .container .wrap .frame .content-sale li div:hover a .text-content{
+    opacity: 1;
+    
+}
+
+#sale-1 .container .wrap .frame .content-sale li div:hover a img{
+    opacity: 0.3;
+}
+#sale-1 .container .wrap .frame .content-sale li div a .text-content  .text{
+    font-size: 20px;
+    color: #1478B9;
+    font-weight: 500;
+}
+  /* Scrollbar */
+  
+  .scrollbar {
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+    line-height: 0;
+    position: absolute;
+    top:110%;
+    left: 0;
+  }
+  
+  .scrollbar .handle {
+    width: 100px;
+    height: 100%;
+    background: #292a33;
+    cursor: pointer;
+    transform: translateX(50px);
+  }
+  
+  .scrollbar .handle .mousearea {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+  }
